@@ -1,0 +1,16 @@
+.body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  position: relative;
+  min-height: 100vh;
+  scrollbar-width: none; /* Firefox */
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header__top {
+}
