@@ -2,51 +2,94 @@
 <html lang="en" class="spectrum spectrum--light spectrum--medium">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="node_modules/@spectrum-css/tokens/dist/index.css"/>
-    <link rel="stylesheet" href="node_modules/@spectrum-css/page/dist/index-vars.css">
-    <link rel="stylesheet" href="node_modules/@spectrum-css/button/dist/index-vars.css">
+  <link rel="stylesheet" href="node_modules/@spectrum-css/tokens/dist/index.css" />
+  <link rel="stylesheet" href="node_modules/@spectrum-css/page/dist/index-vars.css">
+  <link rel="stylesheet" href="node_modules/@spectrum-css/button/dist/index-vars.css">
+  <!-- <link rel="stylesheet" href="node_modules/@spectrum-css/tabs/dist/index-vars.css"> -->
 
 
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js" defer></script>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
 
-    <title>MyPortfolio</title>
+  <title>MyPortfolio</title>
 </head>
 
 <body class="body">
 
 
-    <header class="header">
-        <div class="header__left">
-          <div class="header__brand">
-            
+  <header class="header">
+    <div class="header__left">
+
+      <nav class="header__nav">
+        <div class="spectrum-Tabs spectrum-Tabs--sizeM spectrum-Tabs--horizontal header__nav-controls brand-container">
+          <div class="spectrum-Tabs-item brand" tabindex="0">
+            <span class="spectrum-Tabs-itemLabel">Ashik_Moosa</span>
+
           </div>
-          <nav class="header__nav">
-
-          </nav>
         </div>
-        <div class="header__right">
-          <button class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM">
-            <span class="spectrum-Button-label">Contact</span>
-          </button>
+        <div class="spectrum-Tabs spectrum-Tabs--sizeM spectrum-Tabs--horizontal header__nav-controls">
+          <div class="spectrum-Tabs-item is-selected" tabindex="0">
+            <span class="spectrum-Tabs-itemLabel">_hello</span>
+          </div>
+          <div class="spectrum-Tabs-item" tabindex="0">
+            <span class="spectrum-Tabs-itemLabel">_about-me</span>
+          </div>
+          <div class="spectrum-Tabs-item" tabindex="0">
+            <span class="spectrum-Tabs-itemLabel">_projects</span>
+          </div>
+
+          <div class="spectrum-Tabs-selectionIndicator" style="width: 28px; left: 0px;"></div>
         </div>
-       
+      </nav>
+    </div>
+    <div class="header__right">
+      <div class="spectrum-Tabs spectrum-Tabs--sizeM spectrum-Tabs--horizontal">
+        <div class="spectrum-Tabs-item is-selected" tabindex="0">
+          <span class="spectrum-Tabs-itemLabel">_contact-me</span>
+        </div>
+        <div class="spectrum-Tabs-selectionIndicator" style="width: 28px; left: 0px;"></div>
+      </div>
+    </div>
 
-    </header>
 
-    <main class="main">
-        
-    </main>
+  </header>
 
-    <footer class="footer">
-        <small class="copyright">
-            <p class="copyright__text">© Made by Ashik Moosa</p>
-        </small>
-    </footer>
+  <main class="main">
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__left">
+      <span class="footer-msg">find me in:</span>
+      <button
+        class="spectrum-ActionButton spectrum-ActionButton--sizeM spectrum-ActionButton--emphasized spectrum-ActionButton--quiet">
+        <svg class="spectrum-Icon spectrum-Icon--sizeM spectrum-ActionButton-icon" focusable="false" aria-hidden="true"
+          aria-label="Edit">
+          <use xlink:href="#spectrum-icon-18-Edit" />
+        </svg>LinkedIn
+      </button>
+      <button
+        class="spectrum-ActionButton spectrum-ActionButton--sizeM spectrum-ActionButton--emphasized spectrum-ActionButton--quiet">
+        <svg class="spectrum-Icon spectrum-Icon--sizeM spectrum-ActionButton-icon" focusable="false" aria-hidden="true"
+          aria-label="Edit">
+          <use xlink:href="#spectrum-icon-18-Edit" />
+        </svg>Gmail
+      </button>
+    </div>
+    <div class="footer__right">
+      <button
+        class="spectrum-ActionButton spectrum-ActionButton--sizeM spectrum-ActionButton--emphasized spectrum-ActionButton--quiet">
+        <svg class="spectrum-Icon spectrum-Icon--sizeM spectrum-ActionButton-icon" focusable="false" aria-hidden="true"
+          aria-label="Edit">
+          <use xlink:href="#spectrum-icon-18-Edit" />
+        </svg>@usernameGithub
+      </button>
+    </div>
+  </footer>
 
 
 </body>
