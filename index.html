@@ -1,119 +1,91 @@
 <!DOCTYPE html>
-<html lang="en" class="spectrum spectrum--light spectrum--medium">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- <link rel="stylesheet" href="index.css"> -->
-  <link rel="stylesheet" href="node_modules/@spectrum-css/tokens/dist/index.css" />
-  <link rel="stylesheet" href="node_modules/@spectrum-css/page/dist/index-vars.css">
-  <link rel="stylesheet" href="node_modules/@spectrum-css/icon/dist/index.css">
-
-
   <link rel="stylesheet" href="index.css">
-  <script src="index.js" defer></script>
-
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.css">
+  <!-- <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.5.0/dist/semantic.min.js"></script> -->
   <title>MyPortfolio</title>
+
 </head>
 
-<body class="body">
+<body class="pushable">
 
-  <div class="wrapper">
-    <header class="header">
+  <!-- Sidebar Menu -->
+  <section class="ui vertical inverted sidebar menu left">
+    <a class="active item">Home</a>
+    <a class="item">_hello</a>
+    <a class="item">_about-me</a>
+    <a class="item">_projects</a>
+    <a class="item">_contact-me</a>
+  </section>
 
-      <nav class="header__nav">
+  <!-- Page Contents -->
+  <section class="pusher main-content">
 
-        <span class="brand">Ashik_Moosa</span>
-        <div class="spectrum-Tabs spectrum-Tabs--sizeM spectrum-Tabs--horizontal header__nav-controls">
-
-          <div class="spectrum-Tabs-item is-selected" tabindex="0">
-            <span class="spectrum-Tabs-itemLabel">_hello</span>
+    <header class="ui inverted vertical masthead center aligned segment">
+      <div class="ui container">
+        <div class="ui secondary inverted pointing menu">
+          <div class="header item">
+            michael-weaver
           </div>
-          <div class="spectrum-Tabs-item" tabindex="0">
-            <span class="spectrum-Tabs-itemLabel">_about-me</span>
+          <a class="item">
+            _hello
+          </a>
+          <a class="item">
+            _about-me
+          </a>
+          <a class="item active">
+            _projects
+          </a>
+          <div class="right menu">
+            <a class="ui item">
+              _contact-me
+            </a>
           </div>
-          <div class="spectrum-Tabs-item" tabindex="0">
-            <span class="spectrum-Tabs-itemLabel">_projects</span>
-          </div>
-
-          <div class="spectrum-Tabs-selectionIndicator" style="width: 28px; left: 0px;"></div>
+          <a class="toc item hide-desktop menu-open">
+            <i class="sidebar icon"></i>
+          </a>
         </div>
-        <div class="spectrum-Tabs spectrum-Tabs--sizeM spectrum-Tabs--horizontal header__nav-controls ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
-            <path
-              d="m10,6.3501c2.01245,0,3.6499,1.63745,3.6499,3.6499s-1.63745,3.6499-3.6499,3.6499-3.6499-1.63745-3.6499-3.6499,1.63745-3.6499,3.6499-3.6499Zm0-1.5c-2.8396,0-5.1499,2.3103-5.1499,5.1499s2.3103,5.1499,5.1499,5.1499,5.1499-2.3103,5.1499-5.1499-2.3103-5.1499-5.1499-5.1499Z"
-              fill="var(--iconPrimary, #222)" />
-            <path
-              d="m10,3.25c-.41406,0-.75-.33594-.75-.75v-1.25c0-.41406.33594-.75.75-.75s.75.33594.75.75v1.25c0,.41406-.33594.75-.75.75Z"
-              fill="var(--iconPrimary, #222)" />
-            <path
-              d="m10,19.5c-.41406,0-.75-.33594-.75-.75v-1.25c0-.41406.33594-.75.75-.75s.75.33594.75.75v1.25c0,.41406-.33594.75-.75.75Z"
-              fill="var(--iconPrimary, #222)" />
-            <path
-              d="m2.5,10.75h-1.25c-.41406,0-.75-.33594-.75-.75s.33594-.75.75-.75h1.25c.41406,0,.75.33594.75.75s-.33594.75-.75.75Z"
-              fill="var(--iconPrimary, #222)" />
-            <path
-              d="m18.75,10.75h-1.25c-.41406,0-.75-.33594-.75-.75s.33594-.75.75-.75h1.25c.41406,0,.75.33594.75.75s-.33594.75-.75.75Z"
-              fill="var(--iconPrimary, #222)" />
-            <path
-              d="m15.30371,5.44629c-.19238,0-.38379-.07324-.53027-.21973-.29297-.29297-.29297-.76758,0-1.06055l.88379-.88379c.29297-.29297.76758-.29297,1.06055,0s.29297.76758,0,1.06055l-.88379.88379c-.14648.14648-.33789.21973-.53027.21973Z"
-              fill="var(--iconPrimary, #222)" />
-            <path
-              d="m3.8125,16.9375c-.19238,0-.38379-.07324-.53027-.21973-.29297-.29297-.29297-.76758,0-1.06055l.88379-.88379c.29297-.29297.76758-.29297,1.06055,0s.29297.76758,0,1.06055l-.88379.88379c-.14648.14648-.33789.21973-.53027.21973Z"
-              fill="var(--iconPrimary, #222)" />
-            <path
-              d="m4.69629,5.44629c-.19238,0-.38379-.07324-.53027-.21973l-.88379-.88379c-.29297-.29297-.29297-.76758,0-1.06055s.76758-.29297,1.06055,0l.88379.88379c.29297.29297.29297.76758,0,1.06055-.14648.14648-.33789.21973-.53027.21973Z"
-              fill="var(--iconPrimary, #222)" />
-            <path
-              d="m16.1875,16.9375c-.19238,0-.38379-.07324-.53027-.21973l-.88379-.88379c-.29297-.29297-.29297-.76758,0-1.06055s.76758-.29297,1.06055,0l.88379.88379c.29297.29297.29297.76758,0,1.06055-.14648.14648-.33789.21973-.53027.21973Z"
-              fill="var(--iconPrimary, #222)" />
-          </svg>
-
-          <div class="spectrum-Tabs-item is-selected contact-me" tabindex="0">
-            <span class="spectrum-Tabs-itemLabel">_contact-me</span>
-          </div>
-          <div class="spectrum-Tabs-selectionIndicator" style="width: 30px; left: 30px;"></div>
-        </div>
-      </nav>
-
+      </div>
     </header>
 
-    <main class="main">
+    <main class="ui vertical stripe segment ">
+      <div class=" ui middle aligned stackable grid container">
+        <div class="row">
+          <div class="eight wide column">
+            <h3 class="ui header">We Help Companies and Companions</h3>
+            <p>We can give your company superpowers to do things that they never thought possible. Let us delight your
+              customers and empower your needs...through pure data analytics.</p>
+          </div>
+          <div class="six wide right floated column">
+            <img src="assets/images/wireframe/white-image.png" class="ui large bordered rounded image">
+          </div>
+        </div>
 
-
+      </div>
     </main>
 
-    <footer class="footer">
-      <div class="footer__left">
-        <span class="footer-msg">find me in:</span>
-        <button
-          class="spectrum-ActionButton spectrum-ActionButton--sizeM spectrum-ActionButton--emphasized spectrum-ActionButton--quiet">
-          <svg class="spectrum-Icon spectrum-Icon--sizeM spectrum-ActionButton-icon" focusable="false"
-            aria-hidden="true" aria-label="Edit">
-            <use xlink:href="#spectrum-icon-18-Edit" />
-          </svg>LinkedIn
-        </button>
-        <button
-          class="spectrum-ActionButton spectrum-ActionButton--sizeM spectrum-ActionButton--emphasized spectrum-ActionButton--quiet">
-          <svg class="spectrum-Icon spectrum-Icon--sizeM spectrum-ActionButton-icon" focusable="false"
-            aria-hidden="true" aria-label="Edit">
-            <use xlink:href="#spectrum-icon-18-Edit" />
-          </svg>Gmail
-        </button>
-      </div>
-      <div class="footer__right">
-        <button
-          class="spectrum-ActionButton spectrum-ActionButton--sizeM spectrum-ActionButton--emphasized spectrum-ActionButton--quiet">
-          <svg class="spectrum-Icon spectrum-Icon--sizeM spectrum-ActionButton-icon" focusable="false"
-            aria-hidden="true" aria-label="Edit">
-            <use xlink:href="#spectrum-icon-18-Edit" />
-          </svg>@usernameGithub
-        </button>
+    <footer class="ui inverted vertical footer segment">
+      <div class="ui container">
+        <div class="ui large secondary inverted pointing menu">
+          <div class="header item">
+            find me in:
+          </div>
+          <a class="item">twitter</a>
+          <a class="item">facebook</a>
+          <div class="right menu">
+            <a class="ui item">
+              @username
+            </a>
+          </div>
+        </div>
       </div>
     </footer>
-  </div>
 
+  </section>
 </body>
 
 </html>

@@ -1,103 +1,13 @@
-@import "node_modules/@spectrum-css/page/dist/index.css";
-@import "node_modules/@spectrum-css/typography/dist/index.css";
-@import "node_modules/@spectrum-css/icon/dist/index.css";
-@import "node_modules/@spectrum-css/icons/dist/index.css";
-@import "node_modules/@spectrum-css/icons/index.css";
-/* Components */
-@import "node_modules/@spectrum-css/tabs/dist/index.css";
-@import "node_modules/@spectrum-css/button/dist/index.css";
-@import "node_modules/@spectrum-css/divider/dist/index.css";
-@import "node_modules/@spectrum-css/actionbutton/dist/index.css";
-
-.body {
-  box-sizing: border-box;
-  margin: 0em;
-  padding: 0em;
+body {
   background: white;
-  --iconPrimary: orangered;
 }
 
-/* Wrapper styles */
-.wrapper {
+.main-content {
   display: flex;
   flex-direction: column;
-  box-sizing: border-box;
-  padding: 1.5em;
-  min-height: 100vh;
+  height: 100%;
 }
 
-/* Header Styles */
-
-.header {
-  border: 1px solid;
-  border-top-left-radius: 1em;
-  border-top-right-radius: 1em;
-}
-
-.header .header__nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header__nav .header__nav-controls:nth-child(2) {
-  flex: 1;
-}
-
-.header__nav-controls .spectrum-Tabs-item {
-  border-right: 1px solid;
-  margin-inline-start: unset;
-  padding: 0em 1em;
-}
-
-.header__nav-controls .contact-me {
-  border-right: unset;
-}
-
-.header__nav-controls .spectrum-Tabs-item:first-child {
-  border-left: 1px solid;
-}
-
-/* Footer Styles */
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid;
-  border-bottom-left-radius: 1em;
-  border-bottom-right-radius: 1em;
-}
-
-.footer button {
-  border-radius: 0;
-}
-
-.footer .footer__left {
-  display: flex;
-  align-items: center;
-}
-
-.footer__left .footer-msg {
-  padding: 0em 1em;
-}
-
-.footer .footer__left button {
-  border-right: 1px solid;
-}
-
-.footer .footer__left button:first-of-type {
-  border-left: 1px solid;
-}
-
-.footer .footer__right button {
-  border-left: 1px solid;
-}
-
-/* Main Content Styles */
-.main {
-  flex-grow: 1;
-  border-left: 1px solid;
-  border-right: 1px solid;
+.main-content main {
+  height: 100%;
 }

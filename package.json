@@ -1,14 +1,5 @@
 {
   "dependencies": {
-    "@adobe/spectrum-css-workflow-icons": "^3.0.0",
-    "@spectrum-css/actionbutton": "^6.1.1",
-    "@spectrum-css/button": "^13.1.1",
-    "@spectrum-css/divider": "^3.1.1",
-    "@spectrum-css/icon": "^7.1.1",
-    "@spectrum-css/icons": "^2.0.0-alpha.4",
-    "@spectrum-css/page": "^8.1.1",
-    "@spectrum-css/tabs": "^5.1.1",
-    "@spectrum-css/tokens": "^14.3.1",
-    "@spectrum-css/typography": "^6.1.1"
+    "semantic-ui-css": "^2.5.0"
   }
 }
